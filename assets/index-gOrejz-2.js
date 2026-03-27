@@ -9670,7 +9670,7 @@ function Xf({onLogin: e}) {
                     })]
                 }), p.jsx("h2", {
                     className: "text-3xl sm:text-4xl font-bold mb-2 bg-gradient-to-r from-white via-purple-700 to-pink-500 bg-clip-text text-transparent",
-                    children: "igues"
+                    children: "iGUES"
                 }), p.jsx("p", {
                     className: "text-slate-300",
                     children: "Enter the password"
