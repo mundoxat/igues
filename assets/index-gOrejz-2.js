@@ -10018,7 +10018,7 @@ function Jf() {
                             children: [p.jsx("div", {
                                 className: "w-20 h-20 rounded-full bg-gradient-to-br from-pink-400 to-pink-600 p-1",
                                 children: p.jsx("img", {
-                                    src: "https://media.tenor.com/fVd2lR56nT0AAAAM/tommy-shelby-cillian-murphy.gif",
+                                    src: "https://media.tenor.com/HObx6XVW440AAAAM/vai.gif",
                                     alt: "ELE",
                                     className: "w-full h-full rounded-full object-cover"
                                 })
