@@ -9,33 +9,32 @@
   </head>
   <body>
     <div id="root"></div>
-      <script>
-// blocare taste inspect
+     <script>
+// blocare taste
 document.addEventListener('keydown', function(e) {
   if (
     e.key === "F12" ||
-    (e.ctrlKey && e.shiftKey && e.key === "I") ||
-    (e.ctrlKey && e.shiftKey && e.key === "J") ||
+    (e.ctrlKey && e.shiftKey && ["I","J"].includes(e.key)) ||
     (e.ctrlKey && e.key === "U")
   ) {
     e.preventDefault();
   }
 });
 
-// blocare click dreapta
+// click dreapta
 document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
 
-// detectare DevTools
+// detectare DevTools SAFE
 setInterval(function () {
   const devtools =
-    window.outerWidth - window.innerWidth > 160 ||
-    window.outerHeight - window.innerHeight > 160;
+    window.outerWidth - window.innerWidth > 200 ||
+    window.outerHeight - window.innerHeight > 200;
 
   if (devtools) {
-    document.body.innerHTML = "";
+    console.log("DevTools detectat");
   }
-}, 1000);
+}, 2000);
 </script>
 </body></html>
