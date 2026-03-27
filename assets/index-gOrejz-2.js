@@ -9581,7 +9581,7 @@ function Xf({onLogin: e}) {
       , [r,l] = U.useState(!1)
       , [i,o] = U.useState(!1)
       , u = U.useRef([])
-      , s = "Mjg0Ng=="  // Base64 pentru parola
+      , s = "MTk5NA=="  // Base64 pentru parola
       , c = "";  // Nu mai avem nevoie de cheie XOR
 
     function v(_, d) {
@@ -9659,7 +9659,7 @@ function Xf({onLogin: e}) {
                     }), p.jsx("div", {
                         className: "relative w-24 h-24 rounded-full bg-gradient-to-r from-amber-400 via-pink-500 to-purple-500 p-1",
                         children: p.jsx("img", {
-                            src: "https://xatimg.com/image/CFllr03eChFX.jpg?img=12",
+                            src: "https://media.tenor.com/RhUObgJjO-UAAAAM/shelby.gif?img=12",
                             alt: "Profile",
                             className: "w-full h-full rounded-full object-cover"
                         })
@@ -9724,7 +9724,7 @@ function Kf() {
                     }), p.jsx("div", {
                         className: "relative w-32 h-32 rounded-full bg-gradient-to-r from-amber-400 via-pink-500 to-purple-500 p-1",
                         children: p.jsx("img", {
-                            src: "https://xatimg.com/image/7StNuSm1DRQg.png?img=12",
+                            src: "https://media.tenor.com/-ZkmeCMtldEAAAAM/thomas-shelby.gif?img=12",
                             alt: "Profile",
                             className: "w-full h-full rounded-full object-cover"
                         })
@@ -9739,7 +9739,7 @@ function Kf() {
                     children: "igues"
                 }), p.jsx("p", {
                     className: "text-slate-300 text-base sm:text-lg mb-6",
-                    children: "✨To love means, perhaps, to illuminate the most beautiful part of ourselves."
+                    children: "A good captain is not born on a calm sea. Discipline is built in a storm. 🌪️⚓️"
                 }), p.jsxs("div", {
                     className: "flex flex-wrap justify-center gap-2 sm:gap-4 mb-8",
                     children: [p.jsxs("div", {
@@ -9748,21 +9748,11 @@ function Kf() {
                             className: "w-4 h-4 text-amber-400"
                         }), p.jsx("span", {
                             className: "text-white text-sm",
-                            children: "RO"
+                            children: "DXB"
                         })]
+                  
                     }), p.jsxs("a", {
-                        href: "https://xatspaces.store",
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        className: "flex items-center gap-2 px-4 py-2 bg-white/10 rounded-xl border border-white/20 hover:bg-white/20 transition",
-                        children: [p.jsx(Wf, {
-                            className: "w-4 h-4 text-amber-400"
-                        }), p.jsx("span", {
-                            className: "text-white text-sm",
-                            children: "xatframe"
-                         })]
-                    }), p.jsxs("a", {
-                        href: "https://xat.com/igues",
+                        href: "https://xat.com/Trade",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "flex items-center gap-2 px-4 py-2 bg-white/10 rounded-xl border border-white/20 hover:bg-white/20 transition",
@@ -9808,7 +9798,7 @@ function Kf() {
                         }), "Quote:"]
                     }), p.jsx("p", {
                         className: "text-slate-300 leading-relaxed",
-                        children: "A life without love is like a year without spring."
+                        children: "The sea has no other king but God Himself."
                     })]
                 }), p.jsxs("div", {
                     className: "bg-white/5 rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-white/10",
@@ -9832,25 +9822,25 @@ function Yf() {
       , [n,r] = U.useState({})
       , l = [{
         id: 1,
-        url: "https://xatimg.com/image/vKmEsXXCKxFl.png?auto=compress&cs=tinysrgb&w=800",
+        url: "https://media.tenor.com/DU0u10sklQUAAAAM/2.gif?auto=compress&cs=tinysrgb&w=800",
         title: "Moment 1",
         description: "A special memory cherished with care",
         isGif: !1
     }, {
         id: 2,
-        url: "https://xatimg.com/image/CFllr03eChFX.jpg?auto=compress&cs=tinysrgb&w=800",
+        url: "https://media.tenor.com/wHoLhD9Xfy8AAAAM/%D8%B1%D8%A7%D8%B9%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%AC.gif?auto=compress&cs=tinysrgb&w=800",
         title: "Moment 2",
         description: "A special memory cherished with care",
         isGif: !0
     }, {
         id: 3,
-        url: "https://xatimg.com/image/7StNuSm1DRQg.png?auto=compress&cs=tinysrgb&w=800",
+        url: "https://media.tenor.com/CfH1-MqIURcAAAAM/smh-unbelievable.gif?auto=compress&cs=tinysrgb&w=800",
         title: "Moment 3",
         description: "A special memory cherished with care",
         isGif: !1
     }, {
         id: 4,
-        url: "https://xatimg.com/image/tjE5BDmrsFHN.png?auto=compress&cs=tinysrgb&w=800",
+        url: "https://media.tenor.com/cNhHXb3wG_UAAAAM/shelby-tony-shelby.gif?auto=compress&cs=tinysrgb&w=800",
         title: "Moment 4",
         description: "A special memory cherished with care",
         isGif: !1
@@ -9886,7 +9876,7 @@ function Yf() {
                     }), p.jsx("div", {
                         className: "relative w-20 h-20 rounded-full bg-gradient-to-r from-amber-400 via-pink-500 to-purple-500 p-1",
                         children: p.jsx("img", {
-                            src: "https://xatimg.com/image/E24rixS4EVlN.png?img=12",
+                            src: "https://media.tenor.com/yh8dLeoNfR4AAAAM/peaky-blinders-cillian-murphy.gif?img=12",
                             alt: "Profile",
                             className: "w-full h-full rounded-full object-cover"
                         })
@@ -10003,7 +9993,7 @@ function Jf() {
                     }), p.jsx("div", {
                         className: "relative w-24 h-24 rounded-full bg-gradient-to-r from-amber-400 via-pink-500 to-purple-500 p-1",
                         children: p.jsx("img", {
-                            src: "https://xatimg.com/image/vKmEsXXCKxFl.png?img=12",
+                            src: "https://media.tenor.com/DU0u10sklQUAAAAM/2.gif?img=12",
                             alt: "Profile",
                             className: "w-full h-full rounded-full object-cover"
                         })
@@ -10044,10 +10034,10 @@ function Jf() {
                             })]
                         }), p.jsx("h3", {
                             className: "text-2xl font-bold text-center text-white mb-2",
-                            children: "🤍"
+                            children: "👌"
                         }), p.jsx("p", {
                             className: "text-center text-slate-300",
-                            children: "If there is no love, there is nothing."
+                            children: "That love that taught me what I should never accept again."
                         })]
                     })]
                 })
@@ -10134,7 +10124,7 @@ function qf() {
                     className: "flex-1 min-w-0",
                     children: p.jsx("div", {
                         className: "text-white font-semibold text-xs truncate",
-                        children: "Gia Ta Lefta Ta Kanis Ola"
+                        children: "in its vastness🥹🥹🥹"
                     })
                 })]
             }), p.jsxs("div", {
@@ -10218,7 +10208,7 @@ function bf({onLogout: e}) {
                                 className: "w-5 h-5"
                             }), p.jsx("span", {
                                 className: "text-xs font-medium",
-                                children: "My Love"
+                                children: "Old Love"
                             })]
                         }), p.jsxs("button", {
                             onClick: () => n("fotos"),
