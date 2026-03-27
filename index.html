@@ -10,60 +10,32 @@
   <body>
     <div id="root"></div>
       <script>
-// blocare click dreapta
-document.addEventListener('contextmenu', e => e.preventDefault(), { capture: true });
-
 // blocare taste inspect
 document.addEventListener('keydown', function(e) {
   if (
     e.key === "F12" ||
-    (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key)) ||
-    (e.ctrlKey && ["U","S"].includes(e.key))
+    (e.ctrlKey && e.shiftKey && e.key === "I") ||
+    (e.ctrlKey && e.shiftKey && e.key === "J") ||
+    (e.ctrlKey && e.key === "U")
   ) {
     e.preventDefault();
-    e.stopPropagation();
   }
-}, { capture: true });
+});
 
-// detectare DevTools prin dimensiuni
-function devtoolsOpen() {
-  return (
-    window.outerWidth - window.innerWidth > 160 ||
-    window.outerHeight - window.innerHeight > 160
-  );
-}
+// blocare click dreapta
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
 
-// detectare DevTools prin debugger timing
-function debuggerDetect() {
-  const t0 = performance.now();
-  debugger;
-  const t1 = performance.now();
-  return (t1 - t0) > 100;
-}
-
-// reacție
-function reactBlock() {
-  document.documentElement.innerHTML = "";
-}
-
-// rulare periodică
+// detectare DevTools
 setInterval(function () {
-  if (devtoolsOpen() || debuggerDetect()) {
-    reactBlock();
+  const devtools =
+    window.outerWidth - window.innerWidth > 160 ||
+    window.outerHeight - window.innerHeight > 160;
+
+  if (devtools) {
+    document.body.innerHTML = "";
   }
 }, 1000);
-
-// anti-copy
-document.addEventListener('copy', e => e.preventDefault());
-document.addEventListener('cut', e => e.preventDefault());
-document.addEventListener('selectstart', e => e.preventDefault());
-
-// dezactivează console.log
-(function() {
-  const noop = function() {};
-  console.log = noop;
-  console.warn = noop;
-  console.error = noop;
-})();
 </script>
 </body></html>
