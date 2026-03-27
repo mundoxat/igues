@@ -10018,7 +10018,7 @@ function Jf() {
                             children: [p.jsx("div", {
                                 className: "w-20 h-20 rounded-full bg-gradient-to-br from-pink-400 to-pink-600 p-1",
                                 children: p.jsx("img", {
-                                    src: "https://media.tenor.com/f3XybJki0H4AAAAM/anime-thinking.gif",
+                                    src: "https://media.tenor.com/fVd2lR56nT0AAAAM/tommy-shelby-cillian-murphy.gif",
                                     alt: "ELE",
                                     className: "w-full h-full rounded-full object-cover"
                                 })
@@ -10027,7 +10027,7 @@ function Jf() {
                             }), p.jsx("div", {
                                 className: "w-20 h-20 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 p-1",
                                 children: p.jsx("img", {
-                                    src: "https://media.tenor.com/JbnLKar05tAAAAAM/anime-girl-light-blue-hair-anime.gif",
+                                    src: "https://media.tenor.com/YZpH5c7ebCUAAAAm/no-image-available.webp",
                                     alt: "ELA",
                                     className: "w-full h-full rounded-full object-cover"
                                 })
